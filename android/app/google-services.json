@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "738355578290",
+    "project_id": "bibak-6734e",
+    "storage_bucket": "bibak-6734e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:738355578290:android:868ba10ec446e2d6b710ab",
+        "android_client_info": {
+          "package_name": "com.example.bibak_flutter"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "738355578290-ckjh1aq3540iishk836sktfiohiqc3on.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDd4TL0PVotC5reBB3DW0BS0yVQoWQXcaQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "738355578290-ckjh1aq3540iishk836sktfiohiqc3on.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
