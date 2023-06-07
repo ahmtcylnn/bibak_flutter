@@ -1,4 +1,6 @@
+import 'package:bibak_flutter/screens/afet_elci_screen.dart';
 import 'package:bibak_flutter/screens/afetzede_screen.dart';
+import 'package:bibak_flutter/screens/anasayfa.dart';
 import 'package:bibak_flutter/screens/login_screen.dart';
 import 'package:bibak_flutter/utils/colors.dart';
 import 'package:bibak_flutter/widgets/text_field_input.dart';
@@ -77,7 +79,10 @@ class _SelectionScreenState extends State<SelectionScreen> {
                 height: 12,
               ),
               InkWell(
-                onTap: () {},
+                onTap: () {
+                  Navigator.of(context).push(MaterialPageRoute(
+                      builder: ((context) => AfetElciScreen())));
+                },
                 child: Padding(
                   padding: const EdgeInsets.symmetric(horizontal: 50),
                   child: Container(
@@ -227,7 +232,10 @@ class _SelectionScreenState extends State<SelectionScreen> {
                 height: 24,
               ),
               InkWell(
-                onTap: () {},
+                onTap: () {
+                  Navigator.of(context).push(
+                      MaterialPageRoute(builder: ((context) => Anasayfa())));
+                },
                 child: Padding(
                   padding: const EdgeInsets.symmetric(horizontal: 100),
                   child: Container(
@@ -254,7 +262,10 @@ class _SelectionScreenState extends State<SelectionScreen> {
                 height: 32,
               ),
               InkWell(
-                onTap: () {},
+                onTap: () {
+                  Navigator.of(context).push(
+                      MaterialPageRoute(builder: ((context) => LoginScreen())));
+                },
                 child: Padding(
                   padding: const EdgeInsets.symmetric(horizontal: 100),
                   child: Container(

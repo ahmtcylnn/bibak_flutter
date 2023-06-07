@@ -106,6 +106,10 @@ class _AfetzedeIhtiyacState extends State<AfetzedeIhtiyac> {
                     backgroundImage: NetworkImage(
                         'https://images.unsplash.com/photo-1685682160909-61e7f1c2d5c0?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1161&q=80'),
                   ),
+                  Text(
+                    "Akif Yılmaz",
+                    style: TextStyle(fontWeight: FontWeight.bold, fontSize: 12),
+                  ),
                   ElevatedButton(
                     onPressed: () {},
                     child: Text(
@@ -135,7 +139,11 @@ class _AfetzedeIhtiyacState extends State<AfetzedeIhtiyac> {
                   const CircleAvatar(
                     radius: 16,
                     backgroundImage: NetworkImage(
-                        'https://images.unsplash.com/photo-1685682160909-61e7f1c2d5c0?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1161&q=80'),
+                        'https://images.unsplash.com/photo-1685926650808-aaee59828ab8?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=827&q=80'),
+                  ),
+                  Text(
+                    "Emin Demir",
+                    style: TextStyle(fontWeight: FontWeight.bold, fontSize: 12),
                   ),
                   ElevatedButton(
                     onPressed: () {},
