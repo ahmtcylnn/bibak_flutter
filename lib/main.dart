@@ -27,8 +27,8 @@ class MyApp extends StatelessWidget {
       theme: ThemeData.light()
           .copyWith(scaffoldBackgroundColor: mobileBackgroundColor),
       title: 'Bibak',
-      home: AfetzedeScreen(),
-      // home: LoginScreen(),
+      //home: AfetzedeScreen(),
+      home: LoginScreen(),
       // home: const ResponsiveLayout(
       //     webScreenLayout: WebScreenLayout(),
       //     mobileScreenLayout: MobileScreenLayout()),

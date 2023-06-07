@@ -2,6 +2,7 @@ import 'package:bibak_flutter/screens/afet_elci_screen.dart';
 import 'package:bibak_flutter/screens/afetzede_screen.dart';
 import 'package:bibak_flutter/screens/anasayfa.dart';
 import 'package:bibak_flutter/screens/login_screen.dart';
+import 'package:bibak_flutter/screens/yardimsever_screen.dart';
 import 'package:bibak_flutter/utils/colors.dart';
 import 'package:bibak_flutter/widgets/text_field_input.dart';
 import 'package:flutter/material.dart';
@@ -130,7 +131,10 @@ class _SelectionScreenState extends State<SelectionScreen> {
                 height: 12,
               ),
               InkWell(
-                onTap: () {},
+                onTap: () {
+                  Navigator.of(context).push(MaterialPageRoute(
+                      builder: ((context) => YardimseverScreen())));
+                },
                 child: Padding(
                   padding: const EdgeInsets.symmetric(horizontal: 100),
                   child: Container(
